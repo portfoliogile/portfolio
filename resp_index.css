@@ -115,4 +115,21 @@ li:hover ul {
     left: 50%;
     font-size: 35px;
 }
+.txtsection2 {
+    font-size: 17px;
+}
+.txtsection3 {
+    font-size: 17px;
+}
+.txtsection4 {
+    font-size: 17px;
+}
+.iconctt {
+    margin-right: 10px;
+    transition: .4s;
+}
+.imgicon {
+    height: 40px;
+    width: 40px;
+}
 }
