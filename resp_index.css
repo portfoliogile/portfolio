@@ -1,0 +1,118 @@
+@media screen and (max-width: 1250px) {
+.txtsection3 {
+    overflow-y: scroll;
+}
+}
+@media screen and (max-width: 1000px) {
+.nome {
+    left: calc(50% + 100px);
+    white-space: nowrap;
+    transform: translateX(-50%);
+}
+}
+@media screen and (max-width: 800px) {
+.boxmenu {
+    display: none;
+}
+.estrutura {
+    position: relative;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "section1"
+    "section2"
+    "section3"
+    "section4"
+    "section5"
+    ;
+    justify-items: center;
+}
+.nome {
+    left: 200px;
+    white-space: nowrap;
+}
+.txtsection2 {
+    height: 400px;
+    width: 80%;
+}
+.txtsection3 {
+    height: 400px;
+    width: 80%;
+}
+.txtsection4 {
+    height: 400px;
+    width: 80%;
+}
+
+/* Menu responsivo */
+#nav {
+    display: inline;
+    position: fixed;
+    z-index: 10;
+    top:20px;
+    left: 80% ;
+    transform: translate(-50%);
+    
+}
+li ul {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    display: none;
+}
+ul li a  {
+    display: block;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(168, 168, 168, 0.411);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+html ul li { 
+    float: left;
+    text-decoration: none;
+    list-style-type: none; 
+}
+li:hover ul { 
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+}
+.botton {
+    color: white;
+}
+.botton:hover {
+    background-color: #2193b0;
+}
+#menusize{
+    font-size: 20px;
+    padding-top: 5.5px;
+    padding-bottom: 2.5px;
+}
+#menuresp {
+    padding-top: 5.5px;
+    padding-bottom: 2.5px;
+}
+}
+@media screen and (max-width: 550px) {
+.txtsection1 {
+    display: none;
+} 
+.txtsection11 {
+    display: inline;
+}
+.click {
+    display: none;
+}
+}
+@media screen and (max-width: 500px) {
+.nome {
+    left: 50%;
+    font-size: 35px;
+}
+}

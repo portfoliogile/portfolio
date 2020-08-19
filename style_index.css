@@ -46,6 +46,9 @@ a {
     ;
     justify-items: center;
 }
+#nav {
+    display: none;
+}
 
 /* Menu */
 .boxmenu {
@@ -121,6 +124,21 @@ a {
     border-radius: 10px;
 
     background-color: rgb(129, 129, 129);
+}
+.txtsection11 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+
+    padding: 20px;
+
+    transition: .5s;
+
+    border-radius: 10px;
+
+    background-color: rgb(129, 129, 129);
+
+    display: none;
 }
 
 
@@ -208,6 +226,9 @@ a {
     border-radius: 10px;
 
     background-color: rgb(129, 129, 129);
+}
+.siteexe {
+    color: #000000;
 }
 
 
