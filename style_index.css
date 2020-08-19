@@ -137,9 +137,10 @@ a {
 }
 .txtsection2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
     color: white;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: .7px;
 
     height: 500px;
     width: 80%;
@@ -165,9 +166,10 @@ a {
 }
 .txtsection3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
     color: white;
-    line-height: 45px;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: .7px;
 
     height: 500px;
     width: 80%;
@@ -193,9 +195,10 @@ a {
 }
 .txtsection4 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
     color: white;
-    line-height: 45px;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: .7px;
 
     height: 500px;
     width: 80%;
